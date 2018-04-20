@@ -1,0 +1,12 @@
+# https://jasonstitt.com/gitignore-whitelisting-patterns
+# Ignore everything
+*
+# But descend into directories
+# !*/
+# VIM
+!/.vimrc
+!/.vim/**
+# Tmux
+!/.tmux.conf
+
+!.gitignore
