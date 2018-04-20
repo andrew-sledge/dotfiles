@@ -6,7 +6,9 @@
 # VIM
 !/.vimrc
 !/.vim/**
+# But not history
+.vim/.netrwhist
 # Tmux
 !/.tmux.conf
-
+# Gitignore
 !.gitignore

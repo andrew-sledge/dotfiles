@@ -1,6 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =4
-let g:netrw_dirhist_1='/Users/ajsledge/work/awsacs-envs/consumersite/.elasticbeanstalk/saved_configs'
-let g:netrw_dirhist_2='/Users/ajsledge/personal/bdyec/src/bdyec/layouts/partials'
-let g:netrw_dirhist_3='/Users/ajsledge/work/performance-scorecard-lib/vars'
-let g:netrw_dirhist_4='/private/tmp/prometheus.yml'
