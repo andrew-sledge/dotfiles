@@ -6,10 +6,13 @@
 # VIM
 !/.vimrc
 !/.vim/**
-!/.vim/**/**
 # But not history
 .vim/.netrwhist
 # Tmux
 !/.tmux.conf
 # Gitignore
 !.gitignore
+# ZSH
+!.zshrc
+!/.oh-my-zsh
+!/.oh-my-zsh/**
