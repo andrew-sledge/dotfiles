@@ -22,6 +22,8 @@ Plug 'edkolev/tmuxline.vim'
 Plug 'bling/vim-bufferline'
 Plug 'airblade/vim-gitgutter'
 Plug 'hashivim/vim-terraform'
+Plug 'pangloss/vim-javascript'
+Plug 'mxw/vim-jsx'
 """ Plug 'elzr/vim-json'
 call plug#end()
 

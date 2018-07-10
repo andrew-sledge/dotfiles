@@ -6,6 +6,7 @@
 # VIM
 !/.vimrc
 !/.vim/**
+!/.vim/**/**
 # But not history
 .vim/.netrwhist
 # Tmux
