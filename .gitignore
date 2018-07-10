@@ -10,6 +10,7 @@
 .vim/.netrwhist
 # Tmux
 !/.tmux.conf
+!/.tmuxcheat
 # Gitignore
 !.gitignore
 # ZSH
