@@ -1,3 +1,8 @@
+""" See https://github.com/vim/vim/issues/3117
+if has('python3')
+    silent! python3 1
+endif
+
 call plug#begin('~/.vim/external-plugins')
 Plug 'Valloric/YouCompleteMe'
 Plug 'junegunn/vim-easy-align'
@@ -65,7 +70,7 @@ let g:rg_command = '
   \ rg --column --line-number --no-heading --fixed-strings --ignore-case --no-ignore --hidden --follow --color "always"
   \ -g "*.{js,json,php,md,styl,jade,html,config,py,cpp,c,go,hs,rb,conf,java}"
   \ -g "!{.git,node_modules,vendor}/*" '
-setlocal rtp+=/usr/local/opt/fzf
+set rtp+=/usr/local/opt/fzf
 """ command! -bang -nargs=* Find call fzf#vim#grep(g:rg_command .shellescape(<q-args>), 1, <bang>0)
 command! -bang -nargs=* Find call fzf#vim#grep(g:rg_command.shellescape(<q-args>).'| tr -d "\017"', 1, <bang>0)
 set grepprg=rg\ --vimgrep
@@ -76,6 +81,7 @@ let g:ycm_use_ultinips_completer = 1
 let g:ycm_seed_identifiers_with_syntax = 1
 let g:ycm_complete_in_comments = 1
 let g:ycm_complete_in_strings = 1
+let g:ycm_path_to_python_interpreter = '/usr/local/bin/python3'
 
 """ NERDTree
 let NERDTreeShowHidden=1
