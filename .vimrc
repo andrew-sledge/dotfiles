@@ -92,3 +92,4 @@ au BufNewFile,BufRead Jenkinsfile setf groovy
 """ Regular mappings
 nmap <F6> :TagbarToggle<CR>
 map <C-n> :NERDTreeToggle<CR>
+map <C-f> :FZF<CR>
