@@ -4,14 +4,15 @@ if has('python3')
 endif
 
 call plug#begin('~/.vim/external-plugins')
-Plug 'Valloric/YouCompleteMe'
+""" Plug 'Valloric/YouCompleteMe'
 Plug 'junegunn/vim-easy-align'
-Plug 'https://github.com/junegunn/vim-github-dashboard.git'
-Plug 'SirVer/ultisnips' 
+""" Plug 'https://github.com/junegunn/vim-github-dashboard.git'
+""" Plug 'SirVer/ultisnips' 
+Plug 'godlygeek/tabular'
 Plug 'honza/vim-snippets'
 Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 Plug 'tpope/vim-fireplace', { 'for': 'python' }
-Plug 'rdnetto/YCM-Generator', { 'branch': 'stable' }
+""" Plug 'rdnetto/YCM-Generator', { 'branch': 'stable' }
 Plug 'fatih/vim-go', { 'tag': '*' }
 Plug 'nsf/gocode', { 'rtp': 'vim' }
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
